@@ -44,6 +44,8 @@ final class RMRequest {
     public var url: URL? {
         return URL(string: urlString)
     }
+    
+    public let httpMethod = "GET"
 
     public init(
         endpoint: RMEndpoint,
